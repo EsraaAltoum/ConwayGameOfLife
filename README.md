@@ -6,7 +6,7 @@ This game can be run on any python environment (IDE, terminal ETC.). MUST have p
 
 To run from terminal, have python 3 installed and run the commanded python3 <name_of_python_script.py>
 
-In order to run the game for the specific case (where the user uses a separate file), a text file must me used.
+In order to run the game for the specific case (where the user uses a separate file), a text file must be used.
 
 The text file must consist of the first line being the height, the second being the width and the 3rd line and onwards be the actual grid.
 
