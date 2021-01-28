@@ -25,14 +25,18 @@ class GameBoard:
 
         if len(lines) != self.height:
             #error height mismatch
-            pass
+	    print("error: height mismatch")
+	    exit(1)
+            
 
         line_count = 0
         for line in lines:
             row = [int(i) for i in line.strip()]
             if len(row) != self.width:
                 #error width mismatch
-                pass
+		print("error:width mismatch")
+		exit(1)
+                
 
             self.board.append(row)
             line_count += 1
