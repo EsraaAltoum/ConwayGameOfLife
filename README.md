@@ -2,7 +2,9 @@
 
 This game allows for a simulation of the conway game of life, where instances of generations occur throughout the cells within the grid. With each generation cells become alive, stay alive, or die following 4 rules. This continues for generations in order to create variations. 
 
-This game can be run on any python environment (IDE, terminal ETC.)
+This game can be run on any python environment (IDE, terminal ETC.). MUST have python 3 installed in order to run. 
+
+To run from terminal, have python 3 installed and run the commanded python3 <name_of_python_script.py>
 
 In order to run the game for the specific case (where the user uses a separate file), a text file must me used.
 
